@@ -1,2 +1,2 @@
 # First-time-using-git
-for intern 
+This repo is for intern
