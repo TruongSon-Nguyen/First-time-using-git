@@ -1,2 +1,252 @@
+# Intro_N07
+This is Intro_N07
 
-bgcgcjghcgjvjhv
+# Nội dung học phần
+## Chương 1
+-Giới thiệu về máy tính:
+    + Máy tính là một thiết bị điện tử có khả năng thao tác thông tin hoặc dữ liệu.
+    + Máy tính có nhiều ứng dụng trong hầu hết các lĩnh vực, như giáo dục, kinh doanh, sản xuất,....
+    + máy tính thường được chia thành hai thành phần chính đó là phần cứng (Hardware) và phần mềm (Software).
+
+-Phần cứng máy tính:
+   + Một máy tính có những bộ phận gì?
+	+ Bo mạch chủ (Motherboard)
+	+ Bộ xử lý trung tâm (CPU)
+	+ Bộ nhớ RAM
+	+ Ổ cứng (Hard Drive / SSD)
+	+ Card đồ họa (GPU)
+	+ Nguồn cấp điện (Power Supply Unit - PSU)
+	+ Thiết bị ngoại vi
+-Lịch sử phát triển của máy tính:
+  
+  + Máy tính đã trải qua nhiều giai đoạn phát triển, được phân chia thành các thế hệ khác nhau:
+
+| Thế hệ                     | Thời gian          | Đặc điểm chính                              |
+|---------------------------|-------------------|--------------------------------------------|
+| Thế hệ đầu tiên           | 1940-1955         | Máy tính cơ học, máy tính điện tử đầu tiên; sử dụng bóng chân không. |
+| Thế hệ thứ hai           | 1956-1963         | Sử dụng transistor; máy tính nhỏ hơn, hiệu suất cao hơn. |
+| Thế hệ thứ ba            | 1964-1971         | Sử dụng mạch tích hợp (IC); cải tiến về tốc độ và kích thước. |
+| Thế hệ thứ tư            | 1971-hiện tại     | Sử dụng vi xử lý; máy tính cá nhân phát triển mạnh mẽ. |
+| Thế hệ thứ năm           | Hiện tại và tương lai | Trí tuệ nhân tạo, máy học, máy tính lượng tử; công nghệ tiên tiến và tự động hóa. |
+
+
+-Các thế hệ máy tính:
+   + Thế hệ thứ nhất: Sử dụng ống chân không.
+   + Thế hệ thứ hai: Sử dụng transistor.
+   + Thế hệ thứ ba: Sử dụng mạch tích hợp (IC).
+   + Thế hệ thứ tư: Sử dụng vi xử lý (Microprocessor).
+   + Thế hệ thứ năm: Tập trung vào trí tuệ nhân tạo (AI) và máy tính lượng tử.
+
+
+## Chương 2
+-Biểu diễn thông tin và hệ thống số:
+
+   + Biểu diễn thông tin trong máy tính: sử dụng 2 ký hiệu "0", "1" để biểu diễn dữ liệu
+   + Đơn vị đo thông tin cơ bản là Bit, nhỏ nhất là Bit, giá trị của 1 bit có thể là 0 hoặc 1
+   + Bit nhị phân là số được sử dụng trong hệ thống máy tính
+   + Số nhị phân là số được biểu diễn bằng 2 ký hiệu "0", "1"
+   + Số bát phân là số được biểu diễn bằng 8 ký hiệu "0", "1", "2", "3", "4", "5", "6", "7"
+   + Số thập lục phân là số được biểu diễn bằng 16 ký hiệu "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"
+   + Số nguyên có dấu là số không dấu, biễu diễn bằng hệ thống số có dấu
+   + Phép cộng, trừ số nguyên có dấu: sử dụng bù 1, bù 2 để biểu diễn số nguyên có dấu
+
+-Chuyển đổi cơ số:
+
+   + Chuyển đổi bất cứ cơ số nào sang hệ 10: sử dụng phép nhân, cộng để chuyển đổi
+   + Chuyển từ cơ số 10 sang cơ số bất kỳ: sử dụng phép chia, nhân để chuyển đổi
+   + Ví dụ về chuyển đổi khác nhau: số nhị phân sang bát phân, thập lục phân, số thập lục phân sang bát phân, nhị phân:
+
+
+| Nhị phân | Bát phân | Thập lục phân |
+|----------|----------|----------------|
+| 0000     | 0        | 0              |
+| 0001     | 1        | 1              |
+| 0010     | 2        | 2              |
+| 0011     | 3        | 3              |
+| 0100     | 4        | 4              |
+| 0101     | 5        | 5              |
+| 0110     | 6        | 6              |
+| 0111     | 7        | 7              |
+| 1000     | 10       | 8              |
+| 1001     | 11       | 9              |
+| 1010     | 12       | A              |
+| 1011     | 13       | B              |
+| 1100     | 14       | C              |
+| 1101     | 15       | D              |
+| 1110     | 16       | E              |
+| 1111     | 17       | F              |
+
+-Số nguyên có dấu:
+
+   + Số nguyên có dấu là số không dấu, biễu diễn bằng hệ thống số có dấu
+   + Biểu diễn số nguyên có dấu: sử dụng bù 1, bù 2 để biểu diễn số nguyên có dấu
+   + Phép cộng, trừ số nguyên có dấu: sử dụng bù 1, bù 2 để biểu diễn số nguyên có dấu
+
+-Phép cộng, trừ số nguyên:
+
+   + Phép cộng và trừ số nguyên không dấu: sử dụng phép cộng bit nhị phân
+   + Phép cộng và trừ số nguyên có dấu: sử dụng bù 1, bù 2 để biểu diễn số nguyên có dấu
+   + Ví dụ về thực hiện phép cộng, trừ số nguyên có dấu:
+     
+| Phép toán     | Kết quả  |
+|---------------|----------|
+| \( 5 + 3 \)   | \( 8 \)  |
+| \( 5 - 3 \)   | \( 2 \)  |
+| \( -5 + 3 \)  | \( -2 \) |
+| \( -5 - 3 \)  | \( -8 \) |
+| \( 5 + (-3) \)| \( 2 \)  |
+| \( 5 - (-3) \)| \( 8 \)  |
+| \( -5 + (-3) \)| \( -8 \) |
+| \( -5 - 3 \)  | \( -8 \) |
+
+## Chương 3 :quản lý tập tin và thư mục
+Khái niệm Tập tin và Thư mục
+     - Tập tin: một đơn vị lưu trữ dữ liệu ở các dạng khác nhau (text, audio,
+               image, …), các chương trình máy tính có thể đọc thông tin từ file hoặc
+               ghi thông tin vào một file.
+               + Mỗi tập tin có phần tên và mở rộng: bai_tap.pdf, bai_tap.txt, bai_tap.docx, …
+               + Mỗi tập tin có một dung lượng xác định
+               + Người dùng có thể sử dụng các chương trình khác nhau để tạo, chỉnh sửa,
+                 sao chép, và xoá tập tin
+      - Thư mục: là một đơn vị logic dùng để nhóm, tổ chức và chứa các tập
+                 tin mới mục đích khác nhau.
+                + Thư mục có thể chứa nhiều thư mục con khác nhau
+                + Thư mục thường được đặt tên theo nội dung hoặc mục đích sử dụng
+Khái niệm Tập tin và Thư mục
+
+      - Quản lý dữ liệu hiệu quả phục phụ việc tìm kiếm và truy cập dễ dàng
+
+      - Tổ chức công việc: phân loại, đặt tên tập tin và thư mục theo mục
+         đích hặc theo dự án
+
+      - Đặt tên file và thư mục sử dụng chữ viết thường tránh nhầm lẫn giữa
+        chữ hoa và chữ thường
+
+      - Tránh sử dụng ký tự đặc biệt (?, /, *, <, “, >, |, ...) trong việc đặt tên
+         các file và thư mục
+         Cấu trúc cây thư mục
+
+Cấu trúc cây thư mục :                                                           
+        Các tập tin và thư mục thường được tổ chức theo dạng phân cấp giống hình cây: thư mục gốc, và các thư
+            mục con
+        Đường dẫn (Path name): là chuỗi ký tự mô
+             tả vị trí của tập tin hoặc thư mục trong một
+             hệ thống máy tính
+        Đường dẫn (Path name): là chuỗi ký tự mô
+              tả vị trí của tập tin hoặc thư mục trong một
+              hệ thống máy tính
+
+        Windows:
+
+            + Bắt đầu bằng ký hiệu của ổ đĩa (C:\)
+
+            + Các thư mục bên trong đường dẫn dược biểu thị bằng “\”
+
+            + Thư mục hoặc tập tin cuối cùng là vị trí được truy cập
+
+                 VD: C:\Users\Guner\Document
+
+        -Dịch vụ điện toán đám mây (cloud computing) : là các dịch vụ công
+           nghệ thông tin (máy chủ, lưu trữ, mạng, phần mềm, ...) được cung cấp
+            thông qua Internet.
+             + Google Drive là dịch vụ miễn phí: dịch vụ lưu trữ, phần mềm xử lý văn
+               bản (doc), xử lý số liệu (sheet), ... với định hướng hỗ trợ người dùng
+                nâng cao hiệu quả hợp tác.
+             + Người dùng có thể truy cập dữ liệu mọi lúc mọi nơi, trên nhiều thiết bị (Web
+               browser, Drive Apps)
+             + Hỗ trợ việc làm việc chung cho nhóm người dùng
+             + Tự động lưu trữ dữ liệu và lịch sử chỉnh sửa của files
+
+         - Google Drive là dịch vụ miễn phí cho phép lưu
+             trữ các dữ liệu online, cho phép sử dụng các ứng
+            dụng web trên nhiều thiết bị khác nhau để truy
+            cập.
+
+             + Sử dụng tượng như hình vẽ để vào Google
+              Drive hoặc sử dụng link: http://drive.google.com
+              
+## Chương 4
+- Hệ điều hành linux
+  + Lịch sử Linux và Unix
+    + Linux
+      + Được phát triển lần đầu tiên vào năm 1969 tại Bell Labs bởi Dennis Ritchie và KenThompson
+      + Nhiều ý tưởng chính vẫn được sử dụng cho đến ngày nay
+      + macOS thực chất là một hệ điều hành Unix ngụy trang!
+    + Unix
+      + Được phát triển vào năm 1992 bởi Linus Torvalds, người cũng đã phát triển git!
+  + Bản phân phối Linux
+    + Debian
+      + Ubuntu (và các dẫn xuất của nó)
+      + Linux Mint
+      + Kali Linux
+      + Linux lite
+      + Raspbian
+      + Tails OS
+      + Knoppix, etc
+  + Red Hat Linux
+    + Red Hat Enterprise Linux (RHEL)
+    + Fedora
+    + CentOS
+    + Linux lite
+    + EduLinux
+    + Scientific Linux
+    + Knoppix, etc
+  + Học ở đâu
+    +  https://labex.io/courses/linux-basic-commands-practice-online
+    +  https://vietjack.com/
+  + Nơi thực hành
+    + Lựa chọn 1: Máy tính trong phòng Lab
+      + Sử dụng Virtual Box
+    + Lựa chọn 2: Phenikaa Jupyter hub
+      + Link: https://jupyter.pail.phenikaa-uni.edu.vn/
+      + Đăng nhập bằng Email PU
+      + Một tài khoản trên máy chủ Linux sẽ được tạo cho mỗi học sinh
+  + The Shell
+    + Shell: Một chương trình tương tác cho phép người dùng tương tác với hệ điều hành và các ứng dụng của nó
+    + Tại sao sử dụng shell so với GUI (Giao diện người dùng đồ họa)?
+      + Nhiều tác vụ phức tạp dễ thực hiện hơn trên dòng lệnh
+      + Hữu ích để làm việc trên các máy chủ từ xa
+      + Có thể lập trình
+      + Tùy biến
+  + Lệnh Shell cơ bản
+    + pwd  : In thư mục làm việc hiện tại
+    + cd   : Thay đổi thư mục làm việc
+    + ls   : Liệt kê các tập tin trong thư mục làm việc
+    + man  : Đưa ra hướng dẫn cho một lệnh
+    + exit : Đăng xuất khỏi shell
+  + Lệnh hệ thống
+    + clear : Xóa tất cả đầu ra khỏi bảng điều khiển
+    +  date : Xuất ngày hệ thống
+    +  cal : Xuất lịch văn bản
+    +  uname : In thông tin về hệ thống hiện tại
+## Chương 5
+  + Kiểm soát phiên bản
+    +Mục tiêu: Hoàn thành bài học này sinh viên sẽ có khả năng sử dụng Git, GitHub
+    + Kiểu kiểm soát phiên bản: hệ thống kiểm soát phiên bản, Phần mềm theo dõi và quản lý những thay đổi đối với một tập hợp các tệp và tài nguyên
+    + Github là trang web lưu trữ trực tuyến các kho lưu trữ Git
+  + Kho lưu trữ (Repo)
+    + Vị trí lưu trữ bản sao của tất cả các tập tin
+    + Các tập tin trong thư mục làm việc của bạn phải là thêm vào được đưa vào kho lưu trữ để theo dõi
+    + Nên đưa vào Repo:
+    + Mọi thứ cần thiết để tạo dự án của bạn
+    +  Không được đưa vào kho lưu trữ: những thứ này có thể dễ dàng được tạo lại và chỉ chiếm dung lượng
+  + Git
+    + Xuất phát từ cộng đồng phát triển Linux
+    + Mô hình phân tán
+    + Có thể tạo kho lưu trữ ở bất cứ đâu
+  + Lệnh Git
+    + init: tạo một bản sao cục bộ của một kho lưu trữ
+    + add: thêm nội dung tập tin vào vùng dàn dựng
+    + commit: ghi lại ảnh chụp nhanh của khu vực dàn dựng
+    + status: xem trạng thái của các tập tin của bạn trong thư mục làm việc và khu vực dàn dựng
+    + diff: hiển thị sự khác biệt giữa những gì được dàn dựng và những gì được sửa đổi nhưng không được dàn dựng
+
++ Trạng thái và sự khác biệt
+  + git status: xem trạng thái của các tập tin của bạn trong thư mục làm việc Và khu vực staging
+  + git diff: Xem sự khác biệt giữa bạn thư mục làm việc và khu vực staging
+  + git log: Xem nhật ký của tất cả các thay đổi trong kho lưu trữ cục bộ
++ Kéo và đẩy
+  + Pull: lấy các bản cập nhật mới nhất từ kho lưu trữ từ xa vào kho lưu trữ cục bộ của bạn
+  + Push: đẩy những thay đổi của bạn từ kho lưu trữ cục bộ sang kho lưu trữ từ xa
++ Tránh các vấn đặt
++ Không chỉnh sửa kho lưu trữ (thư mục .git) theo cách thay đổi
