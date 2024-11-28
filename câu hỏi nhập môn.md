@@ -942,7 +942,110 @@
 -----------------------------------
 
 
-##### CHương 9 
+##### CHương 10
+
+
+1. **Giới thiệu về Python: cài đặt môi trường và chạy chương trình Python**
+   - **Trắc nghiệm (Chọn một đáp án)**:
+     - Câu hỏi: Để cài đặt môi trường lập trình Python, bạn cần cài đặt phần mềm nào?
+       - A. Microsoft Word
+       - B. Anaconda
+       - C. Adobe Photoshop
+       - D. VLC Media Player
+     - **Đáp án**: B. Anaconda
+   - **Trắc nghiệm (Chọn nhiều đáp án)**:
+     - Câu hỏi: Những phần mềm nào có thể được sử dụng để viết và chạy chương trình Python? (Chọn tất cả các đáp án đúng)
+       - A. Notepad
+       - B. Vim
+       - C. Sublime Text
+       - D. Microsoft Excel
+       - E. PyCharm
+     - **Đáp án**: A, B, C, E
+   - **Điền vào chỗ trống**:
+     - Câu hỏi: Để chạy chương trình Python, bạn cần lưu file với phần mở rộng ________.
+     - **Đáp án**: .py
+
+2. **Cú pháp cơ bản của lập trình Python**
+   - **Trắc nghiệm (Chọn một đáp án)**:
+     - Câu hỏi: Cú pháp cơ bản của một câu lệnh điều kiện trong Python là ________.
+       - A. switch
+       - B. if
+       - C. case
+       - D. select
+     - **Đáp án**: B. if
+   - **Trắc nghiệm (Chọn nhiều đáp án)**:
+     - Câu hỏi: Những từ khóa nào sau đây được sử dụng trong câu lệnh điều kiện của Python? (Chọn tất cả các đáp án đúng)
+       - A. if
+       - B. elif
+       - C. else
+       - D. endif
+       - E. switch
+     - **Đáp án**: A, B, C
+   - **Điền vào chỗ trống**:
+     - Câu hỏi: Trong Python, khối lệnh được xác định bằng ________.
+     - **Đáp án**: thụt lề (indentation)
+
+3. **Các kiểu dữ liệu cơ bản: integer, float, string, boolean**
+   - **Trắc nghiệm (Chọn một đáp án)**:
+     - Câu hỏi: Kiểu dữ liệu nào sau đây đại diện cho số nguyên trong Python?
+       - A. float
+       - B. string
+       - C. integer
+       - D. boolean
+     - **Đáp án**: C. integer
+   - **Trắc nghiệm (Chọn nhiều đáp án)**:
+     - Câu hỏi: Những kiểu dữ liệu nào sau đây có trong Python? (Chọn tất cả các đáp án đúng)
+       - A. Integer
+       - B. Float
+       - C. String
+       - D. Boolean
+       - E. Character
+     - **Đáp án**: A, B, C, D
+   - **Điền vào chỗ trống**:
+     - Câu hỏi: Kiểu dữ liệu ________ được sử dụng để lưu trữ chuỗi ký tự trong Python.
+     - **Đáp án**: string
+
+4. **Các phép toán cơ bản và biểu thức**
+   - **Trắc nghiệm (Chọn một đáp án)**:
+     - Câu hỏi: Phép toán nào sau đây được sử dụng để cộng hai số trong Python?
+       - A. -
+       - B. *
+       - C. /
+       - D. +
+     - **Đáp án**: D. +
+   - **Trắc nghiệm (Chọn nhiều đáp án)**:
+     - Câu hỏi: Những phép toán nào sau đây có thể được sử dụng trong Python? (Chọn tất cả các đáp án đúng)
+       - A. +
+       - B. -
+       - C. *
+       - D. /
+       - E. %
+     - **Đáp án**: A, B, C, D, E
+   - **Điền vào chỗ trống**:
+     - Câu hỏi: Biểu thức ________ được sử dụng để tính phần dư của phép chia trong Python.
+     - **Đáp án**: %
+
+5. **Câu lệnh điều kiện và vòng lặp**
+   - **Trắc nghiệm (Chọn một đáp án)**:
+     - Câu hỏi: Câu lệnh nào sau đây được sử dụng để lặp lại một khối lệnh trong Python?
+       - A. if
+       - B. for
+       - C. elif
+       - D. else
+     - **Đáp án**: B. for
+   - **Trắc nghiệm (Chọn nhiều đáp án)**:
+     - Câu hỏi: Những câu lệnh nào sau đây được sử dụng để điều khiển luồng chương trình trong Python? (Chọn tất cả các đáp án đúng)
+       - A. if
+       - B. for
+       - C. while
+       - D. elif
+       - E. switch
+     - **Đáp án**: A, B, C, D
+   - **Điền vào chỗ trống**:
+     - Câu hỏi: Câu lệnh ________ được sử dụng để lặp lại một khối lệnh cho đến khi điều kiện sai trong Python.
+     - **Đáp án**: while
+
+Hy vọng những câu hỏi và đáp án này sẽ giúp ích cho bạn! Nếu bạn cần thêm, đừng ngần ngại yêu cầu nhé.
 
 
 
