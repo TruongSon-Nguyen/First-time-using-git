@@ -915,7 +915,7 @@
 ------------------------
 
 
-####Chương 7-8
+####Chương 6
 
 
 1. **Trắc nghiệm (Chọn một đáp án)**:
@@ -940,6 +940,140 @@
    - **Đáp án**: lợi ích công cộng
 
 -----------------------------------
+#### Chương 7-8
+
+1. **Tạo website mới**
+   - **Trắc nghiệm (Chọn một đáp án)**:
+     - Câu hỏi: Để tạo website mới với WordPress.com, bước đầu tiên bạn cần làm là gì?
+       - A. Chọn tên miền
+       - B. Tạo tài khoản
+       - C. Chọn gói dịch vụ
+       - D. Chọn giao diện
+     - **Đáp án**: B. Tạo tài khoản
+ 
+ **Trắc nghiệm (Chọn một đáp án)**:
+   - Câu hỏi: Bước nào sau đây là bước đầu tiên cần thiết để tạo một website mới với WordPress.org?
+     - A. Cài đặt XAMPP
+     - B. Tạo cơ sở dữ liệu
+     - C. Tải và cài đặt WordPress
+     - D. Chọn tên miền
+- **Đáp án**: A. Cài đặt XAMPP
+
+
+   - **Điền vào chỗ trống**:
+     - Câu hỏi: Để tạo website mới với WordPress.org, bạn cần truy cập địa chỉ ________ để tải WordPress.
+       - A. wordpress.com
+       - B. wordpress.org
+       - C. wordpress.net
+       - D. wordpress.edu
+     - **Đáp án**: B. wordpress.org
+
+2. **Các thành phần cơ bản trong WordPress**
+   - **Trắc nghiệm (Chọn một đáp án)**:
+     - Câu hỏi: Thành phần nào sau đây không phải là thành phần cơ bản của WordPress?
+       - A. Posts
+       - B. Media
+       - C. Pages
+       - D. Excel
+     - **Đáp án**: D. Excel
+   - **Trắc nghiệm (Chọn nhiều đáp án)**:
+     - Câu hỏi: Những thành phần nào sau đây là thành phần cơ bản của WordPress? (Chọn tất cả các đáp án đúng)
+       - A. Dashboard
+       - B. Settings
+       - C. Posts
+       - D. Media
+       - E. Photoshop
+     - **Đáp án**: A, B, C, D
+   - **Điền vào chỗ trống**:
+     - Câu hỏi: Thành phần ________ trong WordPress được sử dụng để quản lý bài viết.
+       - A. Pages
+       - B. Media
+       - C. Posts
+       - D. Comments
+     - **Đáp án**: C. Posts
+
+3. **Hệ quản trị nội dung (CMS – Content Management System)**
+   - **Trắc nghiệm (Chọn một đáp án)**:
+     - Câu hỏi: Hệ quản trị nội dung (CMS) nào sau đây là phổ biến nhất?
+       - A. Joomla
+       - B. Drupal
+       - C. WordPress
+       - D. Magento
+     - **Đáp án**: C. WordPress
+
+   - **Trắc nghiệm (Chọn nhiều đáp án)**:
+     - Câu hỏi: Những hệ quản trị nội dung (CMS) nào sau đây là mã nguồn mở? (Chọn tất cả các đáp án đúng)
+       - A. WordPress
+       - B. Joomla
+       - C. Drupal
+       - D. Shopify
+       - E. Magento
+     - **Đáp án**: A, B, C, E
+
+   - **Điền vào chỗ trống**:
+     - Câu hỏi: CMS là viết tắt của ________.
+       - A. Content Management System
+       - B. Content Management Software
+       - C. Content Management Service
+       - D. Content Management Solution
+     - **Đáp án**: A. Content Management System
+
+5. **Phần mềm mã nguồn mở (Open Source Software) sử dụng ngôn ngữ lập trình PHP và hệ quản trị cơ sở dữ liệu MySQL**
+   - **Trắc nghiệm (Chọn một đáp án)**:
+     - Câu hỏi: Ngôn ngữ lập trình nào sau đây thường được sử dụng trong phần mềm mã nguồn mở như WordPress?
+       - A. Java
+       - B. Python
+       - C. PHP
+       - D. Ruby
+     - **Đáp án**: C. PHP
+
+- **Trắc nghiệm (Chọn nhiều đáp án)**:
+     - Câu hỏi: Những hệ quản trị cơ sở dữ liệu nào sau đây có thể được sử dụng với PHP? (Chọn tất cả các đáp án đúng)
+       - A. MySQL
+       - B. PostgreSQL
+       - C. SQLite
+       - D. Oracle
+       - E. MongoDB
+     - **Đáp án**: A, B, C, D, E
+
+  - **Điền vào chỗ trống**:
+     - Câu hỏi: Phần mềm mã nguồn mở là phần mềm có mã nguồn được ________ công khai.
+       - A. bảo mật
+       - B. chia sẻ
+       - C. mã hóa
+       - D. ẩn giấu
+     - **Đáp án**: B. chia sẻ
+
+6. **Liên tục phát triển và bổ sung thêm nhiều chức năng mới**
+   - **Trắc nghiệm (Chọn một đáp án)**:
+     - Câu hỏi: Điều gì làm cho phần mềm mã nguồn mở như WordPress luôn được cập nhật và phát triển?
+       - A. Sự đóng góp của cộng đồng
+       - B. Sự phát triển của một công ty duy nhất
+       - C. Không có sự thay đổi nào
+       - D. Chỉ có các nhà phát triển chính thức mới có thể cập nhật
+     - **Đáp án**: A. Sự đóng góp của cộng đồng
+
+
+   
+**Trắc nghiệm (Chọn một đáp án)**:
+- Câu hỏi: Yếu tố nào sau đây góp phần lớn nhất vào sự phát triển liên tục của phần mềm mã nguồn mở?
+  - A. Cộng đồng người dùng lớn
+  - B. Sự hỗ trợ từ các nhà phát triển
+  - C. Các bản cập nhật thường xuyên
+  - D. Sự đóng góp mã nguồn từ cộng đồng
+- **Đáp án**: D. Sự đóng góp mã nguồn từ cộng đồng
+
+
+   - **Điền vào chỗ trống**:
+     - Câu hỏi: Phần mềm mã nguồn mở thường được phát triển và cập nhật bởi ________.
+       - A. một công ty duy nhất
+       - B. cộng đồng
+       - C. chính phủ
+       - D. các tổ chức phi lợi nhuận
+     - **Đáp án**: B. cộng đồng
+
+
+---------------------------------
 
 
 ##### CHương 9
