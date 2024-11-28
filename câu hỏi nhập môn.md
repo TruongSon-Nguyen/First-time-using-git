@@ -926,6 +926,7 @@
      - D. Thúc đẩy lợi ích cá nhân
    - **Đáp án**: A. Đóng góp cho xã hội và phúc lợi con người
 
+
 2. **Trắc nghiệm (Chọn nhiều đáp án)**:
    - Câu hỏi: Những trách nhiệm chuyên nghiệp nào sau đây theo Bộ Quy tắc Đạo đức của ACM? (Chọn tất cả các đáp án đúng)
      - A. Cố gắng đạt được chất lượng cao trong công việc chuyên nghiệp
@@ -934,6 +935,7 @@
      - D. Đảm bảo lợi ích công cộng là mối quan tâm chính
      - E. Ưu tiên lợi ích cá nhân hơn lợi ích công cộng
    - **Đáp án**: A, B, C, D
+
 
 3. **Điền vào chỗ trống**:
    - Câu hỏi: Bộ Quy tắc Đạo đức của ACM nhấn mạnh tầm quan trọng của ________ trong tất cả các công việc tin học chuyên nghiệp.
@@ -968,6 +970,8 @@
        - D. wordpress.edu
      - **Đáp án**: B. wordpress.org
 
+
+
 2. **Các thành phần cơ bản trong WordPress**
    - **Trắc nghiệm (Chọn một đáp án)**:
      - Câu hỏi: Thành phần nào sau đây không phải là thành phần cơ bản của WordPress?
@@ -991,6 +995,8 @@
        - C. Posts
        - D. Comments
      - **Đáp án**: C. Posts
+
+
 
 3. **Hệ quản trị nội dung (CMS – Content Management System)**
    - **Trắc nghiệm (Chọn một đáp án)**:
@@ -1017,6 +1023,8 @@
        - C. Content Management Service
        - D. Content Management Solution
      - **Đáp án**: A. Content Management System
+
+
 
 5. **Phần mềm mã nguồn mở (Open Source Software) sử dụng ngôn ngữ lập trình PHP và hệ quản trị cơ sở dữ liệu MySQL**
    - **Trắc nghiệm (Chọn một đáp án)**:
@@ -1077,6 +1085,115 @@
 
 #### Chương 9
 
+
+1. **Khái niệm thuật toán**
+   - **Trắc nghiệm (Chọn một đáp án)**:
+     - Câu hỏi: Thuật toán là gì?
+       - A. Một ngôn ngữ lập trình
+       - B. Một tập hợp các chỉ thị rõ ràng để hoàn thành một nhiệm vụ
+       - C. Một phần mềm máy tính
+       - D. Một hệ điều hành
+     - **Đáp án**: B. Một tập hợp các chỉ thị rõ ràng để hoàn thành một nhiệm vụ
+ 
+   - **Trắc nghiệm (Chọn nhiều đáp án)**:
+     - Câu hỏi: Những đặc điểm nào sau đây là của thuật toán? (Chọn tất cả các đáp án đúng)
+       - A. Tính chính xác
+       - B. Tính khách quan
+       - C. Tính phức tạp
+       - D. Tính hữu hạn
+       - E. Tính ngẫu nhiên
+     - **Đáp án**: A, B, D
+   - **Điền vào chỗ trống**:
+ 
+     - Câu hỏi: Thuật toán phải có tính ________ để đảm bảo người đọc hiểu nhất quán.
+       - A. chính xác
+       - B. khách quan
+       - C. phức tạp
+       - D. hữu hạn
+     - **Đáp án**: B. khách quan
+
+
+
+2. **Biểu diễn thuật toán**
+   - **Trắc nghiệm (Chọn một đáp án)**:
+     - Câu hỏi: Phương pháp nào sau đây thường được sử dụng để biểu diễn thuật toán trong Python?
+       - A. Sơ đồ khối
+       - B. Biểu đồ Gantt
+       - C. Biểu đồ Pareto
+       - D. Biểu đồ xương cá
+     - **Đáp án**: A. Sơ đồ khối
+
+    - **Trắc nghiệm (Chọn nhiều đáp án)**:
+     - Câu hỏi: Những phương pháp nào sau đây có thể được sử dụng để biểu diễn thuật toán? (Chọn tất cả các đáp án đúng)
+       - A. Liệt kê từng bước
+       - B. Sơ đồ khối
+       - C. Biểu đồ cây
+       - D. Biểu đồ xương cá
+       - E. Biểu đồ lớp
+     - **Đáp án**: A, B, C
+
+   - **Điền vào chỗ trống**:
+     - Câu hỏi: Phương pháp ________ thường được sử dụng để biểu diễn các bước của thuật toán bằng các khối và mũi tên.
+       - A. Liệt kê từng bước
+       - B. Sơ đồ khối
+       - C. Biểu đồ cây
+       - D. Biểu đồ xương cá
+     - **Đáp án**: B. Sơ đồ khối
+
+
+
+4. **Độ phức tạp thuật toán**
+   - **Trắc nghiệm (Chọn một đáp án)**:
+     - Câu hỏi: Độ phức tạp thời gian của thuật toán được đánh giá chủ yếu qua yếu tố nào?
+       - A. Số lượng dòng mã
+       - B. Thời gian chạy thuật toán
+       - C. Số lượng biến sử dụng
+       - D. Dung lượng bộ nhớ
+     - **Đáp án**: B. Thời gian chạy thuật toán
+
+    - **Trắc nghiệm (Chọn nhiều đáp án)**:
+     - Câu hỏi: Những yếu tố nào sau đây ảnh hưởng đến độ phức tạp của thuật toán? (Chọn tất cả các đáp án đúng)
+       - A. Kích cỡ dữ liệu đầu vào
+       - B. Số lượng phép toán sơ cấp
+       - C. Số lượng biến sử dụng
+       - D. Thời gian chạy thuật toán
+       - E. Dung lượng bộ nhớ
+     - **Đáp án**: A, B, D
+
+   - **Điền vào chỗ trống**:
+     - Câu hỏi: Độ phức tạp của thuật toán thường được biểu diễn bằng ký hiệu ________.
+       - A. O-lớn (Big-O)
+       - B. Theta (Θ)
+       - C. Omega (Ω)
+       - D. Tất cả các đáp án trên
+     - **Đáp án**: D. Tất cả các đáp án trên
+
+
+5. **Các phương pháp thiết kế thuật toán**
+   - **Trắc nghiệm (Chọn một đáp án)**:
+     - Câu hỏi: Phương pháp thiết kế thuật toán nào sau đây sử dụng cách tiếp cận từ trên xuống dưới?
+       - A. Quy hoạch động
+       - B. Đệ quy
+       - C. Phân chia và trị
+       - D. Tham lam
+     - **Đáp án**: C. Phân chia và trị
+
+    - **Trắc nghiệm (Chọn nhiều đáp án)**:
+     - Câu hỏi: Những phương pháp nào sau đây là phương pháp thiết kế thuật toán? (Chọn tất cả các đáp án đúng)
+       - A. Quy hoạch động
+       - B. Đệ quy
+       - C. Phân chia và trị
+       - D. Tham lam
+       - E. Lập trình tuyến tính
+     - **Đáp án**: A, C, D
+
+    - **Điền vào chỗ trống**:
+     - Câu hỏi: Phương pháp ________ sử dụng cách tiếp cận từ dưới lên trên để giải quyết bài toán.
+       - A. Quy hoạch động
+       - B. Đệ quy
+       - C. Phân chia và trị
+       - D. Tham lam
+     - **Đáp án**: A. Quy hoạch động
 
 
 
