@@ -1,2 +1,600 @@
+# IT2-N07
+IT
+# TRỔNG HỢP KIẾN THỨC 
+# C1+2. Cơ bản về máy tính và công nghệ thông  tin
 
-bgcgcjghcgjvjhv
+
+##   cấu tạo cơ bản của máy :
++ Máy tính (Computer): Thiết bị điện tử có khả năng nhận, xử lý và lưu trữ dữ liệu. Máy tính có thể tự động thực hiện các phép toán và thao tác theo các lệnh đã được lập trình sẵn.
+
++ Phần cứng (Hardware): Các thành phần vật lý của máy tính, bao gồm:
+
++ Bộ xử lý trung tâm (CPU): Thực hiện các phép toán và điều khiển hoạt động của máy tính.
++ Bộ nhớ (RAM): Lưu trữ tạm thời dữ liệu và chương trình đang chạy.
++ Ổ đĩa (HDD/SSD): Lưu trữ dữ liệu lâu dài.
++ Bo mạch chủ (Motherboard): Kết nối tất cả các thành phần lại với nhau.
++ Phần mềm (Software): Tập hợp các chương trình và ứng dụng mà máy tính sử dụng để thực hiện các nhiệm vụ. Có hai loại phần mềm chính:
+
++ Hệ điều hành (Operating System): Quản lý phần cứng và cung cấp môi trường cho phần mềm hoạt động (ví dụ: Windows, macOS, Linux).
+Ứng dụng (Applications): Phần mềm cụ thể phục vụ cho các nhu cầu của người dùng (ví dụ: Word, Excel, trình duyệt web).
+Dữ liệu (Data): Thông tin được máy tính xử lý và lưu trữ. Dữ liệu có thể ở nhiều dạng khác nhau như văn bản, hình ảnh, âm thanh.
+
++ Mạng máy tính (Computer Network): Hệ thống các máy tính và thiết bị kết nối với nhau để chia sẻ tài nguyên và thông tin. Internet là một ví dụ điển hình.
+
++ Bảo mật thông tin (Information Security): Các biện pháp và công nghệ được sử dụng để bảo vệ dữ liệu và hệ thống máy tính khỏi các mối đe dọa.
+
++ Nguyên lý hoạt động (Operating Principles): Máy tính hoạt động theo nguyên lý nhị phân, sử dụng các bit (0 và 1) để biểu diễn và xử lý dữ liệu.
+
+#@ Thế máy tính :
+
++ 1. Thế hệ thứ nhất (1940-1956)
+Công nghệ: Sử dụng ống chân không.
+Đặc điểm: Máy tính lớn, cồng kềnh và tiêu thụ nhiều điện năng.
+Ví dụ: ENIAC, UNIVAC.
+
++ 2. Thế hệ thứ hai (1956-1963)
+Công nghệ: Sử dụng bóng bán dẫn thay cho ống chân không.
+Đặc điểm: Nhỏ gọn hơn, hiệu quả cao hơn và tiêu thụ ít điện năng hơn.
+Ví dụ: IBM 7094, CDC 1604.
+
++ 3. Thế hệ thứ ba (1964-1971)
+Công nghệ: Sử dụng mạch tích hợp (IC).
+Đặc điểm: Tăng hiệu suất, giảm kích thước và giá thành. Xuất hiện hệ điều hành đa nhiệm.
+Ví dụ: IBM System/360, PDP-8.
+
++ 4. Thế hệ thứ tư (1971-1980)
+Công nghệ: Sử dụng vi mạch (microprocessor).
+Đặc điểm: Máy tính cá nhân (PC) trở nên phổ biến. Giao diện người dùng đồ họa (GUI) xuất hiện.
+Ví dụ: Intel 4004, Apple II, IBM PC.
+
++ 5. Thế hệ thứ năm (1980-nay)
+Công nghệ: Phát triển công nghệ AI và máy tính lượng tử.
+Đặc điểm: Tích hợp trí tuệ nhân tạo, khả năng xử lý dữ liệu lớn, và kết nối Internet mạnh mẽ. Sự xuất hiện của các thiết bị di động và điện toán đám mây.
+Ví dụ: Máy tính cá nhân hiện đại, smartphone, máy tính lượng tử.
+
+
+## Biểu diễn thông tin và hệ thống số cơ bản : 
+
+Dưới đây là bảng tóm tắt các cách biểu diễn thông tin và hệ số cơ bản:
+
+| **Cách Biểu Diễn Thông Tin** | **Mô Tả**                            |
+|-------------------------------|--------------------------------------|
+| **Nhị phân**                  | Biểu diễn dưới dạng 0 và 1.         |
+| **Thập phân**                 | Hệ thống số 0-9, con người thường sử dụng. |
+| **Thập lục phân**             | Sử dụng 16 ký tự (0-9, A-F).        |
+| **Octal**                     | Hệ thống số 0-7.                    |
+
+| **Hệ Số Cơ Bản**             | **Giá Trị**                          |
+|-------------------------------|--------------------------------------|
+| **Bit**                       | Đơn vị nhỏ nhất của dữ liệu (0 hoặc 1). |
+| **Byte**                      | 8 bit.                               |
+| **Kilobyte (KB)**            | Khoảng 1.024 byte.                  |
+| **Megabyte (MB)**            | Khoảng 1.024 KB (1 triệu byte).    |
+| **Gigabyte (GB)**            | Khoảng 1.024 MB (1 tỷ byte).        |
+| **Terabyte (TB)**            | Khoảng 1.024 GB (1 triệu triệu byte). |
+
+| **Biểu Diễn Dữ Liệu**        | **Mô Tả**                            |
+|-------------------------------|--------------------------------------|
+| **Chuỗi ký tự (String)**      | Dữ liệu văn bản dưới dạng chuỗi.    |
+| **Số nguyên (Integer)**       | Dữ liệu số nguyên với kích thước khác nhau. |
+| **Số thực (Floating-point)**  | Dữ liệu số thực với độ chính xác khác nhau. |
+| **Hình ảnh**                  | Biểu diễn dưới dạng ma trận điểm ảnh. |
+| **Âm thanh**                  | Biểu diễn âm thanh dưới dạng sóng.  |
+
+Bảng trên giúp dễ dàng nhận diện và phân biệt các cách biểu diễn thông tin và hệ số cơ bản trong máy tính.
+
+## Các phương pháp tính toán :
+
+Dưới đây là bảng tóm tắt các cách chuyển đổi số từ hệ thập phân sang hệ nhị phân và hệ bát phân:
+
+| **Cách Chuyển Đổi**           | **Mô Tả**                                                      | **Ví Dụ**              |
+|-------------------------------|----------------------------------------------------------------|------------------------|
+| **1. Chuyển đổi sang nhị phân** |                                                                |                        |
+| **a. Phương pháp chia liên tiếp** | Chia số thập phân cho 2, ghi lại dư, tiếp tục với thương cho đến khi thương bằng 0. Đọc dư ngược lại. | 13 → 13 ÷ 2 = 6 dư 1; 6 ÷ 2 = 3 dư 0; 3 ÷ 2 = 1 dư 1; 1 ÷ 2 = 0 dư 1 → 1101 |
+| **b. Phương pháp trừ lũy tiến**   | Bắt đầu từ số thập phân, trừ các lũy thừa của 2 lớn nhất cho đến khi không còn giá trị dương. Ghi lại 1 nếu trừ được, 0 nếu không. | 13 → 8 (2^3) trừ 1 → 4 (2^2) không trừ → 0 (2^1) không trừ → 1 (2^0) → 1101 |
+| **2. Chuyển đổi sang bát phân** |                                                                |                        |
+| **a. Phương pháp chia liên tiếp** | Chia số thập phân cho 8, ghi lại dư, tiếp tục với thương cho đến khi thương bằng 0. Đọc dư ngược lại. | 65 → 65 ÷ 8 = 8 dư 1; 8 ÷ 8 = 1 dư 0; 1 ÷ 8 = 0 dư 1 → 101 |
+| **b. Chuyển đổi từ nhị phân**    | Chuyển từ nhị phân sang bát phân bằng cách nhóm 3 bit từ phải sang trái, sau đó chuyển từng nhóm sang bát phân. | 110101 → nhóm: 1 101 01 → thêm 0: 001 101 101 → 1 5 5 (bát phân 55) |
+
+Bảng trên cung cấp các cách chuyển đổi số từ hệ thập phân sang hệ nhị phân và bát phân, giúp dễ dàng nắm bắt và thực hiện các phép chuyển đổi.
+
+Dưới đây là bảng tóm tắt các cách biểu diễn và tính toán số nguyên có dấu trong máy tính:
+
+| **Cách Biểu Diễn Số Nguyên Có Dấu** | **Mô Tả**                                                      | **Ví Dụ**              |
+|---------------------------------------|----------------------------------------------------------------|------------------------|
+| **1. Biểu diễn dấu (Sign-Magnitude)** | Dùng một bit để biểu diễn dấu (0 cho dương, 1 cho âm), phần còn lại biểu diễn giá trị tuyệt đối. | 5 (00000101) và -5 (10000101) |
+| **2. Bổ sung 2 (Two's Complement)**  | Dùng để biểu diễn số nguyên âm, đảo ngược tất cả các bit và cộng 1. Thích hợp cho phép toán cộng/trừ. | 5 (00000101), -5: đảo bit → 11111010, cộng 1 → 11111011 |
+| **3. Bổ sung 1 (One's Complement)**  | Đảo tất cả các bit của số nguyên. Có hai biểu diễn cho 0 (dương và âm). | 5 (00000101), -5: đảo bit → 11111010 |
+| **4. Biểu diễn theo chu kỳ (Excess-N)**| Thêm một hằng số N vào số nguyên để biểu diễn. Ví dụ: với N = 2^(k-1) cho k bit. | 5 với k = 4: 5 + 8 = 13 (1101) |
+
+## **Cách Tính Số Nguyên Có Dấu**
+
+| **Cách Tính**                       | **Mô Tả**                                                      | **Ví Dụ**              |
+|-------------------------------------|----------------------------------------------------------------|------------------------|
+| **1. Cộng số nguyên có dấu**       | Thực hiện phép cộng theo từng cách biểu diễn, kiểm tra dấu kết quả. Nếu dùng bổ sung 2, không cần quan tâm dấu. | 5 (00000101) + (-5) (11111011) → 00000000 (0) |
+| **2. Trừ số nguyên có dấu**        | Chuyển phép trừ thành phép cộng bằng cách cộng với số âm (bổ sung 2). | 5 - 3 → 5 + (-3) → 5 + (11111101) |
+| **3. So sánh số nguyên có dấu**    | So sánh bằng cách kiểm tra dấu và giá trị. Nếu dấu khác nhau, số âm nhỏ hơn số dương. | So sánh -2 (11111110) và 3 (00000011) → -2 < 3 |
+| **4. Nhân và chia số nguyên có dấu**| Sử dụng quy tắc nhân/chia, xác định dấu kết quả: âm với âm = dương, dương với dương = dương, âm với dương = âm. | (-3) * 4 → -12 |
+
+Bảng trên cung cấp cái nhìn tổng quan về cách biểu diễn và tính toán các số nguyên có dấu trong máy tính, giúp bạn dễ dàng hiểu và áp dụng.
+# C3. Kỹ năng sử dụng máy tính
+
+##  cách quảnh lý tập tin cá nhân cơ bản : 
+Dưới đây là tóm tắt các kỹ năng cơ bản trong việc sử dụng máy tính để quản lý tập tin:
+
+ **1. Tạo và Lưu Tập Tin**
+- **Tạo Tập Tin**: Sử dụng phần mềm (như Word, Excel) để tạo mới.
+- **Lưu Tập Tin**: Sử dụng chức năng "Lưu" hoặc "Lưu như..." để chọn vị trí và định dạng.
+
+ **2. Đặt Tên Tập Tin**
+- **Đặt Tên**: Chọn tên có ý nghĩa, dễ nhận biết. Tránh ký tự đặc biệt và quá dài.
+- **Định Dạng**: Chọn định dạng phù hợp (ví dụ: .docx, .xlsx, .jpg).
+
+ **3. Sắp Xếp và Tổ Chức Tập Tin**
+- **Tạo Thư Mục**: Tạo thư mục để tổ chức các tập tin theo chủ đề hoặc dự án.
+- **Di Chuyển và Sao Chép**: Sử dụng các lệnh kéo và thả, hoặc lệnh sao chép và dán.
+
+**4. Tìm Kiếm Tập Tin**
+- **Tìm Kiếm**: Sử dụng thanh tìm kiếm trong hệ điều hành hoặc phần mềm để tìm tập tin theo tên hoặc loại.
+- **Sắp Xếp**: Sắp xếp tập tin theo tên, ngày tạo, hoặc kích thước để dễ dàng tìm kiếm.
+
+**5. Xóa và Khôi Phục Tập Tin**
+- **Xóa Tập Tin**: Sử dụng lệnh "Xóa" để loại bỏ tập tin. Chú ý đến thùng rác.
+- **Khôi Phục**: Tìm trong thùng rác để khôi phục tập tin đã xóa.
+
+**6. Đổi Định Dạng Tập Tin**
+- **Chuyển Đổi Định Dạng**: Sử dụng chức năng "Lưu dưới dạng" để thay đổi định dạng tập tin (ví dụ: từ .docx sang .pdf).
+
+ **7. Sao Lưu Tập Tin**
+- **Sao Lưu Định Kỳ**: Lưu trữ bản sao tập tin trên ổ cứng ngoài hoặc đám mây để tránh mất mát dữ liệu.
+
+ **8. Chia Sẻ Tập Tin**
+- **Chia Sẻ Qua Email**: Đính kèm tập tin trong email.
+- **Sử Dụng Dịch Vụ Đám Mây**: Chia sẻ liên kết đến tập tin trên các dịch vụ như Google Drive, Dropbox.
+
+ **9. Quản Lý Quyền Truy Cập**
+- **Thiết Lập Quyền**: Cung cấp quyền truy cập cho người khác (xem, chỉnh sửa).
+- **Bảo Mật Tập Tin**: Sử dụng mật khẩu hoặc mã hóa để bảo vệ dữ liệu nhạy cảm.
+
+## minh họa cây thư mục :
+
+
+
+```
+C:\
+│
+├───Documents\
+│   ├───Projects\
+│   │   ├───Project1\
+│   │   │   ├───Report.docx
+│   │   │   └───Presentation.pptx
+│   │   └───Project2\
+│   │       ├───Data.xlsx
+│   │       └───Summary.pdf
+│   ├───Resumes\
+│   │   ├───Resume1.docx
+│   │   └───Resume2.docx
+│   └───Invoices\
+│       ├───Invoice_Jan.pdf
+│       └───Invoice_Feb.pdf
+│
+├───Pictures\
+│   ├───Vacations\
+│   │   ├───Beach\
+│   │   │   ├───photo1.jpg
+│   │   │   └───photo2.jpg
+│   │   └───Mountains\
+│   │       ├───photo3.jpg
+│   │       └───photo4.jpg
+│   └───Family\
+│       ├───photo5.jpg
+│       └───photo6.jpg
+│
+├───Music\
+│   ├───Pop\
+│   │   ├───song1.mp3
+│   │   └───song2.mp3
+│   └───Rock\
+│       ├───song3.mp3
+│       └───song4.mp3
+│
+└───Videos\
+    ├───Movies\
+    │   ├───movie1.mp4
+    │   └───movie2.mp4
+    └───Series\
+        ├───episode1.mkv
+        └───episode2.mkv
+```
+
+
+
+# C4. Hệ điều hành Linux và các lệnh cơ bản
+
+Dưới đây là tóm tắt về hệ điều hành Linux và các câu lệnh cơ bản theo dạng bảng:
+
+## **Tóm Tắt Hệ Điều Hành Linux**
+
+| **Đặc Điểm**                      | **Mô Tả**                                                    |
+|-----------------------------------|-------------------------------------------------------------|
+| **Nguồn Mở**                      | Linux là hệ điều hành mã nguồn mở, cho phép người dùng sửa đổi và phân phối tự do. |
+| **Nhiều Phiên Bản**              | Có nhiều phiên bản (distro) như Ubuntu, Fedora, CentOS, Debian. |
+| **Đa Người Dùng**                 | Hỗ trợ nhiều người dùng cùng lúc với quyền truy cập khác nhau. |
+| **Hệ Thống Tập Tin**             | Tổ chức theo cây thư mục, bắt đầu từ thư mục gốc (/). |
+| **Dòng Lệnh**                     | Sử dụng terminal để thực hiện các lệnh, quản lý hệ thống và chạy ứng dụng. |
+| **Bảo Mật**                       | Cung cấp nhiều lớp bảo mật, hỗ trợ quyền truy cập và mã hóa. |
+| **Tính Ổn Định**                  | Thường được sử dụng cho máy chủ do tính ổn định cao và khả năng chạy liên tục. |
+
+## **Câu Lệnh Cơ Bản trong Linux**
+
+| **Câu Lệnh**        | **Mô Tả**                                   | **Ví Dụ**                 |
+|---------------------|---------------------------------------------|---------------------------|
+| **ls**              | Liệt kê các tập tin và thư mục.            | `ls -l` (liệt kê chi tiết) |
+| **cd**              | Thay đổi thư mục làm việc.                 | `cd /home/user`          |
+| **pwd**             | Hiển thị đường dẫn thư mục hiện tại.       | `pwd`                     |
+| **mkdir**           | Tạo thư mục mới.                            | `mkdir new_folder`       |
+| **rmdir**           | Xóa thư mục rỗng.                           | `rmdir empty_folder`     |
+| **rm**              | Xóa tập tin hoặc thư mục.                   | `rm file.txt`            |
+| **cp**              | Sao chép tập tin hoặc thư mục.              | `cp source.txt dest.txt` |
+| **mv**              | Di chuyển hoặc đổi tên tập tin/thư mục.    | `mv old_name.txt new_name.txt` |
+| **cat**             | Hiển thị nội dung của tập tin.              | `cat file.txt`           |
+| **nano**            | Trình soạn thảo văn bản đơn giản.           | `nano file.txt`          |
+| **chmod**          | Thay đổi quyền truy cập cho tập tin/thư mục.| `chmod 755 script.sh`    |
+| **chown**          | Thay đổi chủ sở hữu tập tin/thư mục.       | `chown user:group file.txt` |
+| **top**             | Hiển thị quá trình đang chạy trong hệ thống.| `top`                     |
+| **exit**            | Thoát khỏi terminal hoặc phiên làm việc.   | `exit`                    |
+
+
+# C5. Git và ứng dụng
+
+## tổng quan về Git
+Dưới đây là tóm tắt về hệ điều hành Git và ứng dụng của nó theo dạng bảng:
+
+ **Tóm Tắt Hệ Điều Hành Git**
+
+| **Đặc Điểm**                      | **Mô Tả**                                                    |
+|-----------------------------------|-------------------------------------------------------------|
+| **Hệ Thống Quản Lý Phiên Bản**   | Git là hệ thống quản lý phiên bản phân tán, cho phép theo dõi thay đổi trong mã nguồn. |
+| **Phân Tán**                      | Mỗi người dùng có bản sao đầy đủ của kho lưu trữ, cho phép làm việc độc lập. |
+| **Hiệu Suất Cao**                 | Tốc độ xử lý nhanh, đặc biệt là với các kho lớn và nhiều nhánh. |
+| **Quản Lý Nhánh Mạnh Mẽ**         | Hỗ trợ tạo, hợp nhất và quản lý các nhánh một cách dễ dàng. |
+| **Ghi Lại Lịch Sử Thay Đổi**      | Lưu trữ lịch sử thay đổi của mã nguồn, giúp phục hồi phiên bản trước. |
+| **Tính Bảo Mật**                  | Cung cấp tính năng xác thực để đảm bảo tính toàn vẹn của dữ liệu. |
+
+ **Ứng Dụng của Git**
+
+| **Ứng Dụng**                      | **Mô Tả**                                                    |
+|-----------------------------------|-------------------------------------------------------------|
+| **Quản Lý Dự Án Phần Mềm**        | Theo dõi và quản lý các phiên bản mã nguồn trong phát triển phần mềm. |
+| **Hợp Tác Nhóm**                  | Hỗ trợ nhiều lập trình viên làm việc cùng nhau trên một dự án mà không xung đột. |
+| **Xử Lý Lịch Sử Thay Đổi**        | Dễ dàng xem lại, so sánh và khôi phục các phiên bản trước của mã nguồn. |
+| **Triển Khai và Phát Hành**      | Giúp tự động hóa quy trình triển khai và phát hành phần mềm. |
+| **Tích Hợp CI/CD**                | Tích hợp với các công cụ CI/CD để tự động hóa kiểm tra và phát hành. |
+| **Quản Lý Tài Liệu**              | Có thể sử dụng để theo dõi thay đổi trong tài liệu, không chỉ mã nguồn. |
+
+
+
+## **Câu Lệnh Cơ Bản của Git**
+
+| **Câu Lệnh**              | **Mô Tả**                                                   | **Ví Dụ**                          |
+|---------------------------|------------------------------------------------------------|------------------------------------|
+| **git init**              | Khởi tạo một kho lưu trữ Git mới.                         | `git init`                         |
+| **git clone**             | Sao chép một kho lưu trữ từ xa về máy cục bộ.             | `git clone <repository-url>`       |
+| **git status**            | Hiển thị trạng thái hiện tại của kho lưu trữ.             | `git status`                       |
+| **git add**               | Thêm tập tin vào khu vực chuẩn bị (staging area).         | `git add <file>`                   |
+| **git commit**            | Lưu lại các thay đổi trong khu vực chuẩn bị.               | `git commit -m "message"`         |
+| **git push**              | Đẩy các thay đổi lên kho lưu trữ từ xa.                   | `git push origin <branch-name>`    |
+| **git pull**              | Tải các thay đổi từ kho lưu trữ từ xa về máy cục bộ.      | `git pull origin <branch-name>`    |
+| **git branch**            | Hiển thị danh sách các nhánh.                              | `git branch`                       |
+| **git checkout**          | Chuyển đổi giữa các nhánh hoặc khôi phục tập tin.        | `git checkout <branch-name>`       |
+| **git merge**             | Hợp nhất các thay đổi từ một nhánh vào nhánh hiện tại.   | `git merge <branch-name>`          |
+| **git log**               | Hiển thị lịch sử các commit.                              | `git log`                          |
+| **git diff**              | So sánh các thay đổi giữa các commit hoặc nhánh.         | `git diff`                         |
+| **git reset**             | Hoàn tác các thay đổi và đưa về trạng thái trước đó.      | `git reset <commit-id>`            |
+| **git remote**            | Quản lý các kho lưu trữ từ xa.                            | `git remote -v`                    |
+| **git fetch**             | Tải về các thay đổi từ kho lưu trữ từ xa mà không hợp nhất. | `git fetch origin`                 |
+
+
+Dưới đây là bảng tóm tắt các câu lệnh cơ bản của Git cùng với cách sử dụng chi tiết và ví dụ cụ thể:
+
+## **Câu Lệnh Cơ Bản của Git và Cách Sử Dụng**
+
+| **Câu Lệnh**              | **Mô Tả**                                                   | **Cách Sử Dụng**                             | **Ví Dụ**                          |
+|---------------------------|------------------------------------------------------------|----------------------------------------------|------------------------------------|
+| **git init**              | Khởi tạo một kho lưu trữ Git mới.                         | Chạy trong thư mục mà bạn muốn khởi tạo kho. | `git init`                         |
+| **git clone**             | Sao chép một kho lưu trữ từ xa về máy cục bộ.             | `git clone <repository-url>`                | `git clone https://github.com/user/repo.git` |
+| **git status**            | Hiển thị trạng thái hiện tại của kho lưu trữ.             | Chạy lệnh trong thư mục kho lưu trữ.       | `git status`                       |
+| **git add**               | Thêm tập tin vào khu vực chuẩn bị (staging area).         | `git add <file>` hoặc `git add .` để thêm tất cả. | `git add index.html`              |
+| **git commit**            | Lưu lại các thay đổi trong khu vực chuẩn bị.               | `git commit -m "message"`                   | `git commit -m "Add new feature"` |
+| **git push**              | Đẩy các thay đổi lên kho lưu trữ từ xa.                   | `git push <remote> <branch>`                | `git push origin main`            |
+| **git pull**              | Tải các thay đổi từ kho lưu trữ từ xa về máy cục bộ.      | `git pull <remote> <branch>`                | `git pull origin main`            |
+| **git branch**            | Hiển thị danh sách các nhánh.                              | `git branch` để xem nhánh hiện tại.        | `git branch`                       |
+| **git checkout**          | Chuyển đổi giữa các nhánh hoặc khôi phục tập tin.        | `git checkout <branch-name>`                | `git checkout feature-branch`     |
+| **git merge**             | Hợp nhất các thay đổi từ một nhánh vào nhánh hiện tại.   | `git merge <branch-name>`                   | `git merge feature-branch`        |
+| **git log**               | Hiển thị lịch sử các commit.                              | Chạy lệnh trong thư mục kho lưu trữ.       | `git log`                          |
+| **git diff**              | So sánh các thay đổi giữa các commit hoặc nhánh.         | `git diff` để xem thay đổi chưa commit.    | `git diff HEAD`                   |
+| **git reset**             | Hoàn tác các thay đổi và đưa về trạng thái trước đó.      | `git reset <commit-id>` hoặc `--hard` để xóa hoàn toàn. | `git reset HEAD~1`                |
+| **git remote**            | Quản lý các kho lưu trữ từ xa.                            | `git remote -v` để xem danh sách.          | `git remote add origin <url>`     |
+| **git fetch**             | Tải về các thay đổi từ kho lưu trữ từ xa mà không hợp nhất. | `git fetch <remote>`                        | `git fetch origin`                 |
+
+## **Lưu Ý Khi Sử Dụng**
+- Luôn đảm bảo bạn đã ở đúng nhánh trước khi thực hiện các thao tác như merge hoặc push.
+- Sử dụng `git status` thường xuyên để theo dõi tình trạng của kho lưu trữ.
+- Khi sử dụng `git commit`, luôn ghi chú rõ ràng để dễ dàng theo dõi lịch sử thay đổi.
+
+# C6. Mạng máy tính, ATTT, đạo đức máy tính
+
+
+
+| **Chủ đề**                       | **Nội dung**                                                                                                             |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| **Định nghĩa**                   | Đạo đức máy tính là nhánh của đạo đức ứng dụng, nghiên cứu cách con người sử dụng và quản lý công nghệ một cách có trách nhiệm. |
+| **Nguyên tắc cơ bản**            |                                                                                                                         |
+| 1. Tôn trọng quyền riêng tư       | - Không truy cập trái phép vào dữ liệu cá nhân hoặc thông tin riêng tư của người khác.                                   |
+|                                   | - Bảo vệ thông tin nhạy cảm khi lưu trữ hoặc chia sẻ.                                                                   |
+| 2. Trách nhiệm sử dụng công nghệ | - Sử dụng máy tính và internet trung thực, không gây hại.                                                              |
+|                                   | - Không tạo hoặc phát tán phần mềm độc hại.                                                                             |
+| 3. Tôn trọng quyền sở hữu trí tuệ | - Không sao chép, phân phối phần mềm, nội dung số hoặc dữ liệu trái phép.                                              |
+|                                   | - Tôn trọng bản quyền và bằng sáng chế.                                                                                |
+| 4. Đảm bảo công bằng, minh bạch  | - Không sử dụng công nghệ để lừa đảo, gian lận hoặc phân biệt đối xử.                                                  |
+|                                   | - Đảm bảo thuật toán không gây bất lợi hoặc thiên vị.                                                                  |
+| 5. Tránh sử dụng công nghệ gây hại | - Không tấn công mạng, phá hoại cơ sở hạ tầng kỹ thuật số.                                                             |
+|                                   | - Không quấy rối, phát tán thông tin sai lệch hoặc thù hận.                                                            |
+| **Ứng dụng thực tế**             |                                                                                                                         |
+| Bảo vệ quyền riêng tư trực tuyến  | - Sử dụng mật khẩu mạnh và bảo vệ thông tin cá nhân.                                                                   |
+|                                   | - Không truy cập trái phép vào tài khoản hoặc hệ thống của người khác.                                                 |
+| Tuân thủ luật pháp và chính sách | - Hiểu và tuân thủ quy định về công nghệ như Luật An ninh mạng, GDPR.                                                 |
+| Phát triển AI có trách nhiệm     | - Đảm bảo sản phẩm công nghệ không vi phạm quyền con người hoặc gây hại.                                               |
+| **Thách thức hiện nay**          |                                                                                                                         |
+| Deepfake và thông tin sai lệch    | - Video/âm thanh giả mạo có thể bị lạm dụng để gây hại.                                                                |
+| Phân biệt đối xử từ AI            | - Thuật toán không công bằng có thể tạo ra bất lợi cho nhóm yếu thế.                                                   |
+| Quyền riêng tư trong dữ liệu lớn | - Thu thập dữ liệu khổng lồ có nguy cơ xâm phạm quyền riêng tư.                                                        |
+| **Lịch sử phát triển**           |                                                                                                                         |
+| 1960s                             | Đạo đức máy tính xuất hiện khi công nghệ máy tính phát triển.                                                          |
+| 1980s                             | James Moor định nghĩa đạo đức máy tính là lĩnh vực nghiên cứu các vấn đề đạo đức liên quan đến việc sử dụng máy tính.  |
+| Hiện tại                          | Mở rộng sang trí tuệ nhân tạo, quyền kỹ thuật số, và an ninh mạng.                                                     |
+|                                                                                                                                                            |
+| **Kết luận**                     | Đạo đức máy tính là nền tảng giúp công nghệ được sử dụng một cách minh bạch, an toàn và có lợi cho xã hội.              |
+
+
+
+# C7+8. Wordpress / Google Site và ứng dụng
+
+
+| **Bước**               | **Chi tiết**                                                                                                                                               |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1. Chuẩn bị môi trường** | - Tải và cài đặt phần mềm localhost: **XAMPP**, **WAMP**, **MAMP**, hoặc **Local by Flywheel**.                                                           |
+|                         | - Khởi động các dịch vụ: **Apache** (web server) và **MySQL** (cơ sở dữ liệu).                                                                             |
+| **2. Tải WordPress**    | - Tải WordPress từ [wordpress.org](https://wordpress.org/download/).                                                                                       |
+|                         | - Giải nén file WordPress và đặt vào thư mục `htdocs` (XAMPP) hoặc `www` (WAMP).                                                                           |
+|                         | - Ví dụ đường dẫn: `C:\xampp\htdocs\wordpress`.                                                                                                           |
+| **3. Tạo cơ sở dữ liệu**| - Truy cập **phpMyAdmin** qua trình duyệt: `http://localhost/phpmyadmin`.                                                                                  |
+|                         | - Nhấn **New** → Đặt tên database (VD: `wordpress_local`) → Nhấn **Create**.                                                                               |
+| **4. Cài đặt WordPress**| - Truy cập: `http://localhost/wordpress`.                                                                                                                 |
+|                         | - Điền thông tin cơ sở dữ liệu:                                                                                                                           |
+|                         |   - **Database Name**: Tên database đã tạo (VD: `wordpress_local`).                                                                                        |
+|                         |   - **Username**: `root`.                                                                                                                                 |
+|                         |   - **Password**: Để trống (mặc định của XAMPP).                                                                                                         |
+|                         | - Nhấn **Submit** → **Run the installation**.                                                                                                             |
+|                         | - Điền thông tin website:                                                                                                                                 |
+|                         |   - **Site Title**: Tên website.                                                                                                                          |
+|                         |   - **Username/Password**: Tài khoản quản trị để đăng nhập.                                                                                                |
+|                         |   - **Email**: Email liên lạc (chỉ dùng nội bộ).                                                                                                           |
+| **5. Quản trị website** | - Truy cập **Dashboard** tại: `http://localhost/wordpress/wp-admin`.                                                                                      |
+|                         | - Cài đặt theme, plugin và tạo nội dung như bài viết, trang, menu,...                                                                                      |
+| **6. Nâng cao (Khi cần)**| - **Chuyển website lên hosting**: Sử dụng plugin như **All-in-One WP Migration** hoặc **Duplicator**.                                                      |
+|                         | - **Tối ưu localhost**: Chỉnh cấu hình file `php.ini` để tăng hiệu suất (VD: `memory_limit`, `max_execution_time`).                                       |
+| **7. Lưu ý**            | - Localhost chỉ hoạt động trên máy tính của bạn, không thể truy cập qua internet.                                                                          |
+|                         | - Thực hiện sao lưu dữ liệu thường xuyên để tránh mất mát khi di chuyển hoặc thử nghiệm các chức năng mới.                                                 |
+
+
+# C9. Khái niệm về thuật toán và chương trình
+
+### **Tóm tắt về thuật toán**
+
+| **Nội dung**            | **Chi tiết**                                                                                 |
+|--------------------------|---------------------------------------------------------------------------------------------|
+| **Định nghĩa**           | Thuật toán là một tập hợp các bước cụ thể, tuần tự và hữu hạn để giải quyết một bài toán hoặc thực hiện một nhiệm vụ. |
+| **Đặc điểm chính**       | 1. **Rõ ràng:** Các bước phải cụ thể và dễ hiểu.                                           |
+|                          | 2. **Hữu hạn:** Kết thúc sau một số bước xác định.                                         |
+|                          | 3. **Đầu vào:** Có thể có hoặc không, nhưng cần rõ ràng.                                   |
+|                          | 4. **Đầu ra:** Phải trả về ít nhất một kết quả.                                            |
+|                          | 5. **Hiệu quả:** Tối ưu tài nguyên (thời gian, bộ nhớ).                                    |
+| **Phương pháp biểu diễn**| - Ngôn ngữ tự nhiên (dễ hiểu nhưng dễ mơ hồ).                                              |
+|                          | - Lưu đồ (trực quan).                                                                     |
+|                          | - Giả mã (pseudocode) (gần với lập trình).                                                |
+|                          | - Dạng toán học (chặt chẽ, phù hợp phân tích).                                             |
+| **Phân loại thuật toán** | - **Chia để trị:** Chia bài toán lớn thành các phần nhỏ (VD: Merge Sort, Quick Sort).      |
+|                          | - **Quy hoạch động:** Tái sử dụng kết quả bài toán con (VD: Fibonacci, Knapsack).          |
+|                          | - **Tham lam:** Lựa chọn tối ưu tại mỗi bước (VD: Dijkstra, Kruskal).                      |
+|                          | - **Đệ quy:** Thuật toán tự gọi lại chính nó (VD: Tower of Hanoi, DFS).                   |
+| **Đo lường hiệu quả**    | - **Độ phức tạp thời gian (Time Complexity):** Tối ưu thời gian thực thi (VD: \(O(n), O(\log n)\)). |
+|                          | - **Độ phức tạp không gian (Space Complexity):** Dung lượng bộ nhớ cần thiết.             |
+| **Ứng dụng**             | - Tìm kiếm, sắp xếp, xử lý dữ liệu lớn, tối ưu hóa, AI, học máy, mã hóa bảo mật, v.v.      |
+
+---
+
+### **Ví dụ đơn giản**
+**Bài toán:** Tìm số lớn nhất trong danh sách.  
+**Thuật toán:**  
+1. Nhập danh sách các số.  
+2. Gán giá trị lớn nhất là phần tử đầu tiên.  
+3. So sánh từng phần tử, nếu lớn hơn giá trị lớn nhất, cập nhật giá trị.  
+4. Trả về số lớn nhất.
+
+
+# C10. Python
+
+
+| **Bước**                 | **Mô tả**                                                                                         | **Lệnh/Thao tác**                                                        |
+|--------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| **1. Cài đặt Python**     | Tải và cài đặt Python từ trang chủ [python.org](https://www.python.org/downloads/).              | Chọn phiên bản Python phù hợp với hệ điều hành, đảm bảo chọn "Add Python to PATH". |
+| **2. Viết chương trình**  | Viết mã Python trong một trình soạn thảo hoặc IDE.                                                | Ví dụ chương trình `hello_world.py`:                                      |
+|                          |                                                                                                  | ```python                                                               |
+|                          |                                                                                                  | print("Hello, World!")                                                   |
+|                          |                                                                                                  | ```                                                                     |
+| **3. Chạy chương trình**  | Có thể chạy chương trình thông qua Command Line, IDE hoặc Jupyter Notebook.                    | **Option 1: Command Line**                                               |
+|                          |                                                                                                  | Mở Command Prompt/Terminal, di chuyển đến thư mục chứa file Python:    |
+|                          |                                                                                                  | `cd path/to/your/python/file`                                            |
+|                          |                                                                                                  | Chạy chương trình: `python hello_world.py`                              |
+|                          |                                                                                                  | **Option 2: IDE**                                                       |
+|                          |                                                                                                  | Mở IDE (PyCharm, VS Code, v.v.), mở file Python và nhấn "Run".         |
+|                          |                                                                                                  | **Option 3: Jupyter Notebook**                                          |
+|                          |                                                                                                  | Cài đặt Jupyter: `pip install notebook`                                  |
+|                          |                                                                                                  | Chạy Jupyter: `jupyter notebook`                                         |
+| **4. Kiểm tra đầu ra**    | Sau khi chạy chương trình, đầu ra sẽ hiển thị trên màn hình.                                     | Đầu ra ví dụ: `Hello, World!`                                           |
+| **5. Xử lý lỗi**          | Nếu có lỗi cú pháp hoặc vấn đề cài đặt, Python sẽ hiển thị thông báo lỗi.                      | Kiểm tra thông báo lỗi và sửa lại chương trình.                         |
+
+
+Dưới đây là bảng tóm tắt các cách chạy chương trình Python trên các nền tảng khác nhau như Google Colab, Jupyter Notebook, Python Commands và Python Program:
+
+| **Cách chạy**                | **Mô tả**                                                                                                   | **Hướng dẫn**                                                                 |
+|------------------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| **1. Google Colab**           | Google Colab là một dịch vụ trực tuyến cho phép chạy mã Python trong các notebook trên cloud.             | 1. Truy cập [Google Colab](https://colab.research.google.com/).               |
+|                              |                                                                                                            | 2. Tạo notebook mới hoặc tải lên notebook có sẵn.                            |
+|                              |                                                                                                            | 3. Viết và chạy mã Python trong các cell.                                    |
+|                              |                                                                                                            | 4. Nhấn Shift + Enter để chạy mã.                                            |
+| **2. Jupyter Notebook**       | Jupyter Notebook cho phép chạy mã Python trong các ô (cells), lý tưởng cho khoa học dữ liệu và AI.        | 1. Cài đặt Jupyter Notebook: `pip install notebook`.                         |
+|                              |                                                                                                            | 2. Mở terminal và gõ `jupyter notebook` để khởi động.                        |
+|                              |                                                                                                            | 3. Mở trình duyệt web và tạo một notebook mới.                               |
+|                              |                                                                                                            | 4. Viết mã Python và nhấn Shift + Enter để chạy mã.                          |
+| **3. Python Commands (Command Line)** | Chạy chương trình Python trực tiếp từ Command Line/Terminal.                                                   | 1. Mở Command Prompt (Windows) hoặc Terminal (macOS/Linux).                 |
+|                              |                                                                                                            | 2. Di chuyển đến thư mục chứa file Python: `cd path/to/your/python/file`.    |
+|                              |                                                                                                            | 3. Chạy mã bằng lệnh: `python your_program.py`.                              |
+| **4. Python Program (IDE)**   | Sử dụng các IDE như PyCharm, Visual Studio Code, Thonny để viết và chạy chương trình Python.               | 1. Cài đặt IDE (ví dụ: PyCharm, VS Code).                                   |
+|                              |                                                                                                            | 2. Mở IDE và tạo file Python mới.                                           |
+|                              |                                                                                                            | 3. Viết mã Python và nhấn "Run" để chạy chương trình.                       |
+
+Dưới đây là các phép toán số học cơ bản trong Python, cùng với cách sử dụng và ví dụ:
+
+### **Các phép toán số học trong Python**
+
+| **Phép toán** | **Ký hiệu** | **Mô tả**                                      | **Ví dụ**                   | **Kết quả**  |
+|---------------|-------------|------------------------------------------------|-----------------------------|--------------|
+| **Cộng**      | `+`         | Cộng hai số                                    | `5 + 3`                     | `8`          |
+| **Trừ**       | `-`         | Trừ một số từ số khác                         | `5 - 3`                     | `2`          |
+| **Nhân**      | `*`         | Nhân hai số                                    | `5 * 3`                     | `15`         |
+| **Chia**      | `/`         | Chia một số cho số khác (số thực)              | `5 / 2`                     | `2.5`        |
+| **Chia lấy phần nguyên** | `//`        | Chia lấy phần nguyên (kết quả là số nguyên)    | `5 // 2`                    | `2`          |
+| **Chia dư**   | `%`         | Lấy phần dư của phép chia                      | `5 % 2`                     | `1`          |
+| **Lũy thừa**  | `**`        | Tính lũy thừa của số                           | `5 ** 2`                    | `25`         |
+
+
+Trong Python, các phép gán dùng để gán giá trị cho biến. Dưới đây là các phép gán cơ bản và các phép gán nâng cao:
+
+### **Các phép gán trong Python**
+
+| **Phép gán**   | **Ký hiệu**    | **Mô tả**                                      | **Ví dụ**                          | **Kết quả**  |
+|----------------|----------------|------------------------------------------------|------------------------------------|--------------|
+| **Gán đơn**    | `=`            | Gán giá trị cho biến                           | `x = 10`                           | `x = 10`     |
+| **Gán cộng**   | `+=`           | Gán giá trị bằng tổng của biến và giá trị mới  | `x = 5; x += 3`                    | `x = 8`      |
+| **Gán trừ**    | `-=`           | Gán giá trị bằng hiệu của biến và giá trị mới  | `x = 5; x -= 3`                    | `x = 2`      |
+| **Gán nhân**   | `*=`           | Gán giá trị bằng tích của biến và giá trị mới  | `x = 5; x *= 3`                    | `x = 15`     |
+| **Gán chia**   | `/=`           | Gán giá trị bằng thương của biến và giá trị mới| `x = 10; x /= 5`                   | `x = 2.0`    |
+| **Gán chia phần nguyên** | `//=`  | Gán giá trị bằng thương phần nguyên của biến và giá trị mới | `x = 10; x //= 3`         | `x = 3`      |
+| **Gán chia dư**| `%=`           | Gán giá trị bằng phần dư của phép chia         | `x = 10; x %= 3`                   | `x = 1`      |
+| **Gán lũy thừa** | `**=`        | Gán giá trị bằng lũy thừa của biến và giá trị mới | `x = 2; x **= 3`                 | `x = 8`      |
+
+
+
+Trong Python, **string** (chuỗi ký tự) là một loại dữ liệu dùng để lưu trữ các chuỗi văn bản. Chuỗi có thể được định nghĩa bằng dấu nháy đơn (`'`) hoặc dấu nháy kép (`"`). Python cung cấp rất nhiều phương thức hữu ích để thao tác với chuỗi.
+
+### **Khái niệm về String trong Python**
+- Chuỗi là một chuỗi các ký tự, có thể bao gồm chữ cái, số, dấu cách, ký tự đặc biệt, v.v.
+- Trong Python, chuỗi là **immutable**, tức là không thể thay đổi trực tiếp các ký tự trong chuỗi sau khi nó đã được tạo ra.
+
+### **Cách tạo chuỗi trong Python**
+1. **Dùng dấu nháy đơn (' ')**:
+   ```python
+   my_string = 'Hello, World!'
+   ```
+
+2. **Dùng dấu nháy kép (" ")**:
+   ```python
+   my_string = "Hello, Python!"
+   ```
+
+3. **Chuỗi nhiều dòng**: Dùng dấu ba nháy đơn (''' ''' hoặc """ """) để tạo chuỗi đa dòng.
+   ```python
+   multiline_string = '''This is
+   a multiline string
+   in Python.'''
+   ```
+
+---
+
+### ** String **
+
+| **Phương thức**               | **Mô tả**                                                     | **Ví dụ**                                 | **Kết quả**            |
+|-------------------------------|---------------------------------------------------------------|-------------------------------------------|------------------------|
+| **`len()`**                    | Trả về độ dài của chuỗi                                       | `len("Hello")`                            | `5`                    |
+| **`lower()`**                  | Chuyển chuỗi thành chữ thường                                | `"Hello".lower()`                         | `'hello'`              |
+| **`upper()`**                  | Chuyển chuỗi thành chữ hoa                                   | `"Hello".upper()`                         | `'HELLO'`              |
+| **`capitalize()`**             | Chuyển chữ cái đầu tiên thành hoa, các chữ còn lại thành thường | `"hello".capitalize()`                    | `'Hello'`              |
+| **`replace()`**                | Thay thế chuỗi con bằng chuỗi khác                           | `"hello world".replace("world", "Python")` | `'hello Python'`       |
+| **`split()`**                  | Chia chuỗi thành danh sách các chuỗi con dựa trên dấu phân cách | `"apple,banana,cherry".split(",")`        | `['apple', 'banana', 'cherry']` |
+| **`join()`**                   | Nối các chuỗi lại với nhau                                    | `", ".join(["apple", "banana", "cherry"])` | `'apple, banana, cherry'` |
+| **`strip()`**                  | Loại bỏ khoảng trắng ở đầu và cuối chuỗi                      | `"  Hello  ".strip()`                     | `'Hello'`              |
+| **`find()`**                   | Tìm vị trí của chuỗi con trong chuỗi (trả về -1 nếu không tìm thấy) | `"Hello".find("e")`                        | `1`                    |
+| **`startswith()`**             | Kiểm tra xem chuỗi có bắt đầu bằng một chuỗi con nào không      | `"Hello".startswith("He")`                | `True`                 |
+| **`endswith()`**               | Kiểm tra xem chuỗi có kết thúc bằng một chuỗi con nào không    | `"Hello".endswith("lo")`                  | `True`                 |
+
+
+**Flow control** 
+
+
+
+### **Tổng hợp lại các câu lệnh điều khiển dòng chảy trong Python**
+
+| **Câu lệnh**  | **Mô tả**                                                         | **Ví dụ**                                                                 |
+|---------------|-------------------------------------------------------------------|---------------------------------------------------------------------------|
+| **`if`**      | Kiểm tra điều kiện và thực thi mã nếu điều kiện đúng              | `if x > 5: print("x > 5")`                                                |
+| **`else`**    | Thực thi mã khi điều kiện trong `if` là sai                       | `if x > 5: ... else: print("x <= 5")`                                     |
+| **`elif`**    | Kiểm tra các điều kiện khác nếu điều kiện trước đó sai            | `if x > 5: ... elif x > 2: ... else: ...`                                  |
+| **`for`**     | Lặp qua các phần tử trong một dãy (list, tuple, string, range)    | `for fruit in ["apple", "banana"]: print(fruit)`                          |
+| **`while`**   | Lặp trong khi điều kiện là đúng                                    | `while x < 5: print(x); x += 1`                                           |
+| **`break`**   | Dừng vòng lặp ngay lập tức                                         | `for x in range(10): if x == 5: break`                                    |
+| **`continue`**| Bỏ qua phần còn lại của vòng lặp và tiếp tục với vòng lặp tiếp theo | `for x in range(5): if x == 2: continue; print(x)`                        |
+| **`pass`**    | Placeholder khi không cần thực hiện gì trong một khối mã          | `for x in range(3): if x == 1: pass; else: print(x)`                      |
+
+**Khối lệnh trong Python** 
+
+### **Tóm tắt về Khối Lệnh trong Python**
+
+| **Loại khối lệnh**          | **Mô tả**                                                                                                                                               | **Ví dụ**                                                                                      |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| **Khối lệnh điều kiện**     | Câu lệnh điều kiện `if`, `elif`, `else` giúp kiểm tra các điều kiện và thực thi khối lệnh phù hợp.                                                      | `if x > 10: ... else: ...`                                                                      |
+| **Khối lệnh vòng lặp**       | Vòng lặp `for`, `while` giúp lặp qua các phần tử hoặc thực thi khối lệnh nhiều lần cho đến khi điều kiện không còn đúng.                              | `for i in range(5): print(i)`                                                                   |
+| **Khối lệnh trong hàm**      | Các câu lệnh trong một hàm phải có cùng mức thụt lề và được thực thi khi hàm được gọi.                                                                   | `def greet(): print("Hello")`                                                                   |
+| **Khối lệnh trong lớp**      | Trong lớp, các phương thức phải có cùng mức thụt lề và định nghĩa hành vi của các đối tượng lớp.                                                        | `class Person: def __init__(self): ...`                                                        |
+| **Khối lệnh `pass`**         | Dùng khi không muốn thực hiện gì trong một khối mã (khối mã tạm thời hoặc trống).                                                                     | `if x == 10: pass`                                                                              |
+
+
+
+### **Vòng lặp `for` trong Python**
+
+
+
+| **Đặc điểm**               | **Mô tả**                                                                                                                                                 | **Ví dụ**                                                |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| **Lặp qua danh sách**       | Vòng lặp qua từng phần tử trong danh sách.                                                                                                                   | `for fruit in ["apple", "banana"]: print(fruit)`         |
+| **Lặp qua chuỗi (string)**  | Vòng lặp qua từng ký tự trong chuỗi.                                                                                                                       | `for char in "Python": print(char)`                       |
+| **Lặp qua tuple**           | Vòng lặp qua từng phần tử trong tuple.                                                                                                                     | `for num in (1, 2, 3): print(num)`                       |
+| **Lặp qua range**           | Dùng `range()` để lặp qua một dãy số.                                                                                                                     | `for i in range(3, 10): print(i)`                        |
+| **Sử dụng `enumerate()`**   | Lặp qua dãy với chỉ số.                                                                                                                                   | `for index, value in enumerate(["apple", "banana"]): print(index, value)` |
+| **Sử dụng `break`**         | Thoát khỏi vòng lặp.                                                                                                                                      | `for i in range(10): if i == 5: break`                   |
+| **Sử dụng `continue`**      | Bỏ qua phần còn lại của vòng lặp và tiếp tục với vòng lặp tiếp theo.                                                                                      | `for i in range(10): if i == 5: continue`                |
+
+
+### **Vòng lặp `while` trong Python**
+
+
+| **Đặc điểm**                 | **Mô tả**                                                                                                                                                   | **Ví dụ**                                                     |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| **Cú pháp cơ bản**            | Vòng lặp sẽ tiếp tục chạy khi điều kiện đúng và dừng lại khi điều kiện sai.                                                                                 | `while x < 5:`                                                  |
+| **Vòng lặp vô hạn**           | Nếu điều kiện luôn đúng, vòng lặp sẽ chạy mãi mãi cho đến khi có câu lệnh `break` để thoát.                                                                | `while True: ...`                                              |
+| **Câu lệnh `break`**          | Dùng để thoát khỏi vòng lặp ngay lập tức.                                                                                                                   | `if x == 5: break`                                             |
+| **Câu lệnh `continue`**       | Dùng để bỏ qua phần còn lại của vòng lặp trong lần lặp hiện tại và tiếp tục vòng lặp với lần lặp tiếp theo.                                                  | `if x == 3: continue`                                          |
+| **Điều kiện kết thúc**        | Vòng lặp `while` sẽ kết thúc khi điều kiện trở thành sai.                                                                                                 | `while x < 10:`                                                |
+
+
