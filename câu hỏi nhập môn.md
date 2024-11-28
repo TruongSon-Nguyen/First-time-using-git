@@ -1076,7 +1076,7 @@
 ---------------------------------
 
 
-##### CHương 9
+##### Chương 10
 
 
 1. **Giới thiệu về Python: cài đặt môi trường và chạy chương trình Python**
