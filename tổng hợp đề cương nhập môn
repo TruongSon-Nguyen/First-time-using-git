@@ -250,3 +250,72 @@ Cấu trúc cây thư mục :
   + Push: đẩy những thay đổi của bạn từ kho lưu trữ cục bộ sang kho lưu trữ từ xa
 + Tránh các vấn đặt
 + Không chỉnh sửa kho lưu trữ (thư mục .git) theo cách thay đổi
++ ## Chương 6
++ 1. Giới thiệu về an toàn không gian số
+- An toàn trên không gian số nhằm đảm bảo an toàn của dữ liệu truyền tải qua Internet cũng như toàn bộ cơ sở hạ tầng Internet.
++ Những cơ hội và thách thức trên không gian số:
+- An ninh mạng
+- Tội phạm mạng
+- Quyền riêng tư trên không gian mạng
+- Không gian mạng mang lại nguồn thông tin khổng lồ nhưng không được kiểm chứng
+- Thông tin giả, độc hại tán phát tràn làn
+- Hoạt động đánh bạc, tổ chức đánh bạc trên mạng diễn biến phức tạp, thủ đoạn tinh vi
+- Tuyên truyền văn hóa phẩm đồi trụy
+- Tán phát tin nhắn rác, lừa đảo
+- Trộm cắp thông tin tài khoản
++ Nguy cơ mất an toàn từ các kiểu tấn công trên mạng
++ Kết luận:
++ Về mức độ ảnh hưởng do mất an toàn thông tin tới nay: 
+- Chưa xảy ra các sự cố lớn với hậu quả nghiêm trọng (lý do: Ứng dụng CNTT ở Việt Nam vẫn còn ở mức thấp so với thế giới. Các dịch vụ hành chính công trên mạng, chính phủ điện tử còn chưa triển khai. Thương mại điện tử còn chưa thực sự phát triển.)
+- Tác hại đối với xã hội đã thấy rõ, khó thống kê nên khó cảm nhận
+- Sự gia tăng của các hành vi tấn công mạng và tội phạm mạng đang trở thành nguy cơ phổ biến và đáng lo ngại.
++ Về nguy cơ mất an toàn thông tin trong thời gian tới:
+- Việt Nam đang xây dựng cơ sở hạ tầng trọng yếu về CNTT, trong đó một số lĩnh vực kinh tế - xã hội và an ninh - quốc phòng có ứng dụng CNTT ở mức cao. Nguy cơ xảy ra sự cố an toàn thông tin sẽ gia tăng nhanh chóng theo quy luật giông với các nước khác.
+- Mức độ thiệt hại ngày càng nghiêm trọng ảnh hưởng lớn đến sự phát triển kinh tế xã hội nếu công tác đảm bảo an ninh thông tin không được triển khai ở đúng mức độ và qui mô cần thiết.
+- Đang là một yếu tố hạn chế phát triển ứng dụng CNTT ở Việt Nam.
++ Bảo vệ trên không gian số
+- Chỉ truy cập trang Web tin cậy. Cảnh giác thông tin giả mạo, bịa đặt trên không gian mạng
+- Giữ bí mật thông tin cá nhân
+- Hạn chế kết bạn trên mạng xã hội để giảm rủi ro
+- Không lạm dụng Internet và cẩn thận sử dụng WIFI công cộng
+- Cài đặt phần mềm diệt mã độc
+- Backup dữ liệu thường xuyên
+- Mã độc: (Malware) là một chương trình được chèn một cách bí mật vào hệ thống với mục đích làm tổn hại đến tính bí mật, tính toàn vẹn và tính sẵn sàng của hệ thống
++ Các loại mã độc phổ biến
+- Mã độc tống tiền
+- Tấn công lừa đảo
+- Mã độc: Stuxnet
+-Âm mưu của Mỹ và Israel
++Làm hỏng máy li tâm của Iran và thu tin tình báo
+-Phương thức, thủ đoạn
+- Khai thác 4 lỗ hổng “zero-day”
+- Ngụy trang sử dụng chứng thực số Realtek và Jmicro
+- Lây nhiễm qua USB
+- Máy chủ ra lệnh đặt ở Malaysia và Đan mạch điều khiển từ xa
+2. Đạo đức máy tính
+  Đạo đức máy tính, còn được gọi là đạo đức thông tin, là nghiên cứu về các nguyên tắc và giá trị đạo đức liên quan đến máy tính và công nghệ. Nó tập trung vào các mối quan hệ giữa con người, hệ thống máy tính, dữ liệu và công nghệ cũng như các vấn đề đạo đức tiềm ẩn có thể phát sinh từ việc sử dụng chúng.
+- Đạo đức máy tính là một phần của đạo đức; nó thay đổi hàng ngày do việc phát triển nhanh chóng của công nghệ thông tin - trích lời nói Deborah Johnson
+- Các câu hỏi về đạo đức phát sinh như là kết quả của sự phát triển khai các công nghệ máy tính. Điều này bao gồm:
++ Làm rõ các vấn đề phát sinh
++ Xây dựng cơ chế để giải quyết các vấn đề này - Trích Johnson & Nissenbaum
+- Mục đích của việc học đạo đức máy tính
+- Hiểu và phân tích được ảnh hưởng của máy tính đến con người và xã hội, cả mặt tích cực lẫn mặt tiêu cực
+- Biết và xem xét những vấn đề liên quan đến đạo đức nghề CNTT, những vấn đề pháp lý và những vấn đề xã hội liên quan
+- Trở thành người làm công nghệ thông tin và khoa học máy tính có trách nhiệm
++ Các khía cạnh của đạo đức máy tính:
+- Trách nhiệm nghề nghiệp, tội phạm máy tính, bảo vệ dữ liệu, sở hữu trí tuệ, quyền riêng tư, bảo mật và sở hữu trí tuệ, sử dụng hợp lý tài nguyên máy tính, chia sẻ dữ liệu, vi phạm bản quyền phần mềm máy tính, mạng máy tính, tội phạm máy tính, bắt nạt trên mạng và rình rập trên mạng
++ Đạo đức cho người sử dụng máy tính
+- Không sử dụng máy tính để làm hại người khác
+- Không sử dụng máy tính để ăn cắp thông tin
+- Không truy cập dữ liệu nếu không được sự cho phép của chủ sở hữu
+- Không sao chép bất hợp pháp phần mềm có bản quyền
+- Tuân thủ pháp luật và chính sách bản quyền
+- Tôn trọng quyền riêng tư trên không gian mạng
++ Đạo đức nghề nghiệp với chuyên gia máy tính:
+- Là chuyên gia trong lĩnh vực máy tính
+- Hiểu biết khách hàng dựa trên tri thức, kinh nghiệm
+- Hiểu về sản phẩm công nghệ ảnh hưởng đến nhiều người
+- Tuân thủ chuẩn mực nghề nghiệp
+- Cập nhật kiến thức về những công nghệ tiên tiến phục vụ công việc
+- Đào tạo kiến thức máy tính cho các nhóm đối tượng khác nhau
+
