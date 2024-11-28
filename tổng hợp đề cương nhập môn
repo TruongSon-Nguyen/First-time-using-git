@@ -1,1 +1,242 @@
+Dưới đây là các câu hỏi trắc nghiệm đã được phân theo từng chương trong đề bài của bạn:
 
+```markdown
+# Câu hỏi trắc nghiệm
+
+## **Chương 1: Cấu trúc máy tính, Phần cứng, Phần mềm, Hệ điều hành**
+
+### 1) Trắc nghiệm 1 đáp án
+**Câu hỏi:**  
+Trong các thành phần sau, đâu là thành phần chính giúp xử lý các phép toán số học và logic trong máy tính?
+
+A) RAM  
+B) CPU  
+C) GPU  
+D) SSD
+
+**Đáp án:** B) CPU
+
+---
+
+### 2) Trắc nghiệm nhiều đáp án
+**Câu hỏi:**  
+Chọn các thành phần trong cấu trúc của CPU:
+
+A) CU (Control Unit)  
+B) ALU (Arithmetic Logic Unit)  
+C) RAM  
+D) Cache memory  
+E) ROM
+
+**Đáp án đúng:** A) CU, B) ALU
+
+---
+
+### 3) Điền vào chỗ trống
+**Câu hỏi:**  
+Lệnh `_____` trong hệ thống Linux được sử dụng để hiển thị danh sách các tệp và thư mục trong thư mục hiện tại.
+
+**Đáp án:** `ls`
+
+---
+
+## **Chương 2: Đổi cơ số và các phép toán chuỗi nhị phân**
+
+### 4) Trắc nghiệm 1 đáp án
+**Câu hỏi:**  
+Khi đổi hệ số từ hệ thập phân sang hệ nhị phân, phương pháp nào sau đây được sử dụng?
+
+A) Phương pháp chia liên tiếp  
+B) Phương pháp nhân liên tiếp  
+C) Phương pháp cộng liên tiếp  
+D) Phương pháp trừ liên tiếp
+
+**Đáp án:** A) Phương pháp chia liên tiếp
+
+---
+
+### 5) Trắc nghiệm nhiều đáp án
+**Câu hỏi:**  
+Chọn các phép toán logic cơ bản của hệ thống nhị phân:
+
+A) AND  
+B) OR  
+C) NOT  
+D) XOR  
+E) SUM
+
+**Đáp án đúng:** A) AND, B) OR, C) NOT, D) XOR
+
+---
+
+### 6) Điền vào chỗ trống
+**Câu hỏi:**  
+Để chuyển đổi một số thập phân âm thành hệ nhị phân, ta sử dụng phương pháp ________.
+
+**Đáp án:** bổ sung 1’s complement và 2’s complement
+
+---
+
+## **Chương 3: Cấu trúc cây thư mục và thao tác cơ bản với tệp**
+
+### 7) Trắc nghiệm 1 đáp án
+**Câu hỏi:**  
+Hệ điều hành Windows sử dụng dấu `______` để phân biệt các thư mục trong cây thư mục.
+
+A) /  
+B) \  
+C) :  
+D) ;
+
+**Đáp án:** B) \
+
+---
+
+### 8) Trắc nghiệm nhiều đáp án
+**Câu hỏi:**  
+Chọn các lệnh sau đây thuộc về hệ điều hành Linux:
+
+A) `mkdir`  
+B) `cd`  
+C) `del`  
+D) `rmdir`  
+E) `copy`
+
+**Đáp án đúng:** A) `mkdir`, B) `cd`, D) `rmdir`
+
+---
+
+### 9) Điền vào chỗ trống
+**Câu hỏi:**  
+Lệnh `_____` trong Linux được sử dụng để tạo một tệp rỗng mới hoặc cập nhật dấu thời gian của tệp đã tồn tại.
+
+**Đáp án:** `touch`
+
+---
+
+## **Chương 4: Các lệnh hệ điều hành Linux**
+
+### 10) Trắc nghiệm 1 đáp án
+**Câu hỏi:**  
+Lệnh `cp` trong hệ điều hành Linux có chức năng gì?
+
+A) Xoá tệp  
+B) Sao chép tệp  
+C) Tạo thư mục mới  
+D) Chuyển đến thư mục
+
+**Đáp án:** B) Sao chép tệp
+
+---
+
+### 11) Trắc nghiệm nhiều đáp án
+**Câu hỏi:**  
+Chọn các lệnh sau đây có thể được sử dụng để quản lý tệp trong Linux:
+
+A) `rm`  
+B) `mkdir`  
+C) `ls`  
+D) `touch`  
+E) `rmdir`
+
+**Đáp án đúng:** A) `rm`, B) `mkdir`, C) `ls`, D) `touch`, E) `rmdir`
+
+---
+
+### 12) Điền vào chỗ trống
+**Câu hỏi:**  
+Lệnh `rm` trong Linux được sử dụng để ________ tệp hoặc thư mục.
+
+**Đáp án:** xoá
+
+---
+
+## **Chương 5: Hệ thống tệp và quyền**
+
+### 13) Trắc nghiệm 1 đáp án
+**Câu hỏi:**  
+Trong hệ thống tệp Linux, lệnh `ls` sẽ hiển thị ________.
+
+A) Danh sách tất cả các tệp trong thư mục  
+B) Tên người dùng đang đăng nhập  
+C) Thông tin về hệ thống  
+D) Danh sách các thư mục
+
+**Đáp án:** A) Danh sách tất cả các tệp trong thư mục
+
+---
+
+### 14) Trắc nghiệm nhiều đáp án
+**Câu hỏi:**  
+Chọn các hệ điều hành hỗ trợ hệ thống tệp có phân quyền người dùng (file permissions):
+
+A) Windows  
+B) Linux  
+C) macOS  
+D) iOS  
+E) Android
+
+**Đáp án đúng:** B) Linux, C) macOS
+
+---
+
+## **Chương 6: ACM Code Conducts**
+
+### 15) Trắc nghiệm 1 đáp án
+**Câu hỏi:**  
+ACM Code Conducts chủ yếu đề cập đến ________.
+
+A) Các nguyên tắc đạo đức và hành vi trong lập trình  
+B) Cách tối ưu hóa mã nguồn  
+C) Quy trình kiểm thử phần mềm  
+D) Các phương pháp lập trình tiến bộ
+
+**Đáp án:** A) Các nguyên tắc đạo đức và hành vi trong lập trình
+
+---
+
+## **Chương 7, 8: Đọc slide**
+
+### 16) Trắc nghiệm 1 đáp án
+**Câu hỏi:**  
+Câu hỏi này yêu cầu bạn tham khảo các slide từ chương 7 và 8 để trả lời.
+
+A) Câu trả lời từ slide chương 7  
+B) Câu trả lời từ slide chương 8  
+C) Câu trả lời từ cả hai chương  
+D) Không có câu trả lời đúng
+
+**Đáp án:** C) Câu trả lời từ cả hai chương
+
+---
+
+## **Chương 9: Thuật toán**
+
+### 17) Trắc nghiệm 1 đáp án
+**Câu hỏi:**  
+Thuật toán được định nghĩa là ________.
+
+A) Một giải pháp cho bài toán  
+B) Một tập hợp các bước rõ ràng và có thể thực hiện được để giải quyết vấn đề  
+C) Một hàm toán học  
+D) Một ngôn ngữ lập trình
+
+**Đáp án:** B) Một tập hợp các bước rõ ràng và có thể thực hiện được để giải quyết vấn đề
+
+---
+
+## **Chương 10: Các bài thực hành**
+
+### 18) Trắc nghiệm nhiều đáp án
+**Câu hỏi:**  
+Các bài thực hành trong chương 10 sẽ giúp bạn:
+
+A) Làm quen với các công cụ lập trình  
+B) Hiểu cách xử lý các dữ liệu phức tạp  
+C) Phát triển kỹ năng phân tích và thiết kế thuật toán  
+D) Học cách tối ưu mã nguồn
+
+**Đáp án đúng:** A) Làm quen với các công cụ lập trình, B) Hiểu cách xử lý các dữ liệu phức tạp, C) Phát triển kỹ năng phân tích và thiết kế thuật toán
+``` 
+
+Các câu hỏi đã được phân theo từng chương, giúp bạn dễ dàng theo dõi và sử dụng trong bài kiểm tra hoặc học tập.
