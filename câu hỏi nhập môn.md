@@ -942,7 +942,7 @@
 -----------------------------------
 
 
-##### CHương 10
+##### CHương 9
 
 
 1. **Giới thiệu về Python: cài đặt môi trường và chạy chương trình Python**
@@ -1045,11 +1045,11 @@
      - Câu hỏi: Câu lệnh ________ được sử dụng để lặp lại một khối lệnh cho đến khi điều kiện sai trong Python.
      - **Đáp án**: while
 
-Hy vọng những câu hỏi và đáp án này sẽ giúp ích cho bạn! Nếu bạn cần thêm, đừng ngần ngại yêu cầu nhé.
 
 
+-------------------------------------
 
-
+#### Chương 10
 
 
 
